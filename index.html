@@ -31,16 +31,26 @@
             width:100%;
             height:100%;
         }
+        .logo { 
+            max-width: 50%;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .logo {
+                max-width: 90%;
+            }
+        }
+
     </style>
 </head>
 
 <body>
     <div class="container">
         <div style="text-align:center;">
-            <img src="./logo.png" style="max-width: 50%;" alt="">
+            <img src="./logo.png" class="logo" alt="">
         </div>
         <div>
-            <h1 style="text-transform: lowercase; color: white; margin-top: 0; letter-spacing: 2px">
+            <h1 style="text-transform: lowercase; color: white; margin-top: 0; letter-spacing: 2px; text-align:center;">
                 Something Beautiful will be here ... Soon :)
             </h1>
         </div>
